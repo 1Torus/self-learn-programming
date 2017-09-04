@@ -1,0 +1,26 @@
+// Problem Solving with C++ - Walter Savitch
+// Chapters 1-2 (for self-learning)
+
+// Maksym Neyra-Nesterenko
+
+// Chapter 2.2 - Self-Test Exercises - #14
+#include <iostream>
+
+int main()
+{
+  double num1(1.000), num2(1.414), num3(1.732), num4(2.000), num5(2.236);
+
+  // "Magic formula"
+  std::cout.setf(ios::fixed);
+  std::cout.setf(ios::showpoint);
+  std::cout.precision(3);
+
+  std::cout << "N\tSquare Root\n\n";
+  std::cout << "1\t" << num1 << "\n\n";
+  std::cout << "2\t" << num1 << "\n\n";
+  std::cout << "3\t" << num1 << "\n\n";
+  std::cout << "4\t" << num1 << "\n\n";
+  std::cout << "5\t" << num1 << "\n\n";
+
+  return 0;
+}
